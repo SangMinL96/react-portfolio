@@ -4,19 +4,26 @@ import homelogo from "../Image/homelogo.png";
 import { Link, withRouter } from "react-router-dom";
 
 const HeaderImg = styled.img`
-  width: 170px;
+  width: 130px;
 `;
 const HeaderContainer = styled.div`
   position: absolute;
-
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 80px;
   font-size: 1.2rem;
-  color: #ff958a;
+  color: #d2dae2;
   font-weight: bold;
-  background-color: rgba(20, 20, 20, 0.8);
+  background-color: ${(props) =>
+    props.bg === "/"
+      ? "rgba(20, 20, 20, 0.8)"
+      : props.bg === "/profile"
+      ? "#e48362f0"
+      : props.bg === "/projact"
+      ? "rgba(20, 20, 20, 0.8)"
+      : "rgba(20, 20, 20, 0.8)"};
+  /* background-color: rgba(20, 20, 20, 0.8); */
   z-index: 99;
   box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
@@ -30,13 +37,14 @@ const Nav = styled.ul`
 const NavList = styled.li`
   margin-left: 1em;
   margin-right: 1em;
-  width: 60px;
+
   border-bottom: 3px solid
-    ${(props) => (props.hover ? "#ff4c38" : "transparent")};
+    ${(props) => (props.hover ? "#ffffff" : "transparent")};
   transition: border-bottom 0.5s ease-in-out;
 `;
 const NavLink = styled(Link)`
-  height: 50px;
+  width: 100%;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +52,7 @@ const NavLink = styled(Link)`
 
 function Header({ location: { pathname } }) {
   return (
-    <HeaderContainer>
+    <HeaderContainer bg={pathname}>
       <Nav>
         <NavList hover={pathname === "/"}>
           <NavLink to="/">Home</NavLink>
@@ -55,6 +63,9 @@ function Header({ location: { pathname } }) {
         <HeaderImg src={homelogo} alt="" />
         <NavList hover={pathname === "/projact"}>
           <NavLink to="/projact">ProJact</NavLink>
+        </NavList>
+        <NavList hover={pathname === "/End"}>
+          <NavLink to="/End">END</NavLink>
         </NavList>
       </Nav>
     </HeaderContainer>
