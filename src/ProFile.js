@@ -1,7 +1,7 @@
 import React from "react";
 
-function Detail() {
+function ProFile() {
   return <div>ddddddddddddd</div>;
 }
 
-export default Detail;
+export default ProFile;

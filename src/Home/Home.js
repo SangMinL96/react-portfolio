@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 import ParticlesBg from "particles-bg";
-import icon from "./icon";
-import myimg from "./Image/myImg1.jpg";
-import contentImg from "./Image/movingIMG.gif";
-import contentImg2 from "./Image/content.png";
-import homelogo from "./Image/homelogo.png";
+import icon from "../icon";
+import myimg from "../Image/myImg1.jpg";
+import contentImg from "../Image/movingIMG.gif";
+import contentImg2 from "../Image/content.png";
+import homelogo from "../Image/homelogo.png";
 
 const HomeContainer = styled.section`
   width: 100%;
-  height: 100%;
+  height: 94vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 `;
 const HomeLogo = styled.img`
@@ -29,10 +29,9 @@ const HomeContent = styled.div`
 `;
 const HomeMyImg = styled.img`
   width: 25%;
-  height: 45%;
+  height: 400px;
   border-radius: 20px;
   opacity: 95%;
-  margin-right: 15em;
 `;
 const ContentImg = styled.img`
   opacity: 0.8;
