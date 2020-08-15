@@ -30,6 +30,7 @@ const Education = styled.div`
     display: inline-block;
     font-size: 1rem;
     margin-bottom: 2em;
+    line-height: 1.2;
   }
 `;
 function Educations() {
@@ -38,9 +39,6 @@ function Educations() {
       <EducationImg src={schoolImg} />
       <Contents>
         <Education>
-          망포고등학교
-          <br />
-          <span>(2013 ~ 2015)</span>
           <br />
           용인송담대학교(정보통신학과)
           <br />
@@ -53,6 +51,9 @@ function Educations() {
           노마드코더
           <br />
           <span>(HTML,REACT,ReactNative, CloneInstagram 수강)</span>
+          <br />
+          더조은컴퓨터학원
+          <span>(재직자 JavaScript,JQuery과정)</span>
           <br />
           자격증
           <br />

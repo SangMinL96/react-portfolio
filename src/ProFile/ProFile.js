@@ -5,6 +5,7 @@ import proFileImg from "../Image/ProFileimg.jpg";
 import My from "./My";
 import Educations from "./Educations";
 import Armys from "./Armys";
+import Albas from "./Albas";
 const Container = styled.div`
   position: absolute;
   top: -3%;
@@ -42,6 +43,8 @@ function ProFile() {
         orientation={"horizontal"}
         className={"books"}
         pageBackground={"#d0d9e100"}
+        animationDuration={300}
+        showSwipeHint={true}
       >
         <article>
           <My />
@@ -51,6 +54,9 @@ function ProFile() {
         </article>
         <article>
           <Armys />
+        </article>
+        <article>
+          <Albas />
         </article>
       </Flipage>
     </Container>

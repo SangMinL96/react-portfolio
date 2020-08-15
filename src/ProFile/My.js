@@ -29,7 +29,7 @@ const Contents = styled.div`
 `;
 
 const Profile = styled.div`
-  line-height: 1.8;
+  line-height: 2;
   width: 100%;
   font-size: 1.1rem;
   font-weight: bold;
@@ -56,10 +56,13 @@ function My() {
           &nbsp; 경기도 수원시 영통
           <br />
           <IoLogoGameControllerB />
-          &nbsp; 컴퓨터, 활동적인 스포츠(배드민턴,볼링,풋살등등)
+          &nbsp; 컴퓨터, 활동적인 스포츠
+          <br /> &nbsp; &nbsp; &nbsp;(배드민턴,볼링,풋살등등)
           <br />
           <IoMdGlasses />
-          &nbsp; 좌우명 : 구현이 되지않으면 될때까지 컴퓨터 앞을 떠나지말자.
+          &nbsp; 좌우명 : 구현이 되지 않으면
+          <br />
+          &nbsp; &nbsp; &nbsp;될 때까지 컴퓨터 앞을 떠나지 말자.
         </Profile>
       </Contents>
     </Container>

@@ -21,12 +21,12 @@ const Contents = styled.div`
   width: 40%;
 `;
 
-const Army = styled.div`
+const Army = styled.p`
   line-height: 1.8;
   width: 100%;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  color: #e15f41;
+  color: #2c3a47;
 `;
 function Armys() {
   return (
@@ -34,13 +34,10 @@ function Armys() {
       <ArmyImg src={armyImg} />
       <Contents>
         <Army>
-          수도 군단 사령부
-          <br />
-          통신대대 통신병으로 성실히 군생활을 하였고
-          <br />
-          상병 3호봉부터 병장까지 분대장이라는 직책을 맡았습니다.
-          <br />
-          선후임들과 사건 사고없이 무사히 재미있게 군생활을 마무리 하였습니다.
+          수도 군단 사령부 통신대대 통신병으로 성실히 군생활을 하였고 상병
+          3호봉부터 병장까지 분대장이라는 직책을 맡았습니다. 분대장을 하면서
+          직책의 대한 무게감과 책임감을 많이 배웠고 선 후임들과 사건 사고없이
+          무사히 재미있게 군생활을 마무리 하였습니다.
         </Army>
       </Contents>
     </Container>
