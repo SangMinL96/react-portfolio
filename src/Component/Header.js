@@ -21,7 +21,7 @@ const HeaderContainer = styled.div`
       : props.bg === "/profile"
       ? "#e48362f0"
       : props.bg === "/projact"
-      ? "rgba(20, 20, 20, 0.8)"
+      ? "#260808"
       : "rgba(20, 20, 20, 0.8)"};
   /* background-color: rgba(20, 20, 20, 0.8); */
   z-index: 99;

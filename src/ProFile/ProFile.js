@@ -6,7 +6,7 @@ import My from "./My";
 import Educations from "./Educations";
 import Armys from "./Armys";
 import Albas from "./Albas";
-const Container = styled.div`
+const PFcontainer = styled.section`
   position: absolute;
   top: -3%;
   width: 100%;
@@ -34,7 +34,7 @@ const TitleContent = styled.div`
 
 function ProFile() {
   return (
-    <Container bg={proFileImg}>
+    <PFcontainer bg={proFileImg}>
       <Title>ProFile</Title>
       <TitleContent>(클릭후 드래그하여 책을 넘겨주세요.)</TitleContent>
       <Flipage
@@ -59,7 +59,7 @@ function ProFile() {
           <Albas />
         </article>
       </Flipage>
-    </Container>
+    </PFcontainer>
   );
 }
 
