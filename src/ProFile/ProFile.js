@@ -1,23 +1,67 @@
 import React from "react";
 import Flipage from "react-flip-page";
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import proFileImg from "../Image/ProFileimg.jpg";
 import My from "./My";
 import Educations from "./Educations";
 import Armys from "./Armys";
 import Albas from "./Albas";
-const PFcontainer = styled.section`
-  position: absolute;
-  top: -3%;
+
+const fadeInOut = keyframes`
+0%{
+  height: 0vh;
+  opacity: 1;
+
+}
+50%{
+  height: 91.2vh;
+  opacity: 1;
+}
+100%{
+  height: 0vh;
+  opacity: 1;
+}
+
+`;
+const fadeIn = keyframes`
+0%{
+  
+  opacity: 0;
+
+}
+
+100%{
+  
+  opacity: 1;
+}`;
+const AniContainer = styled.div`
+  margin-top: 1.8em;
+  background-color: #329dd6;
   width: 100%;
-  height: 99.7vh;
+  height: 0vh;
+  animation: ${fadeInOut} 2.5s forwards ease-in;
+`;
+const PFcontainer = styled.section`
+  opacity: 0;
+  width: 100%;
+  height: 91.2vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1.8em;
-  background-image: url(${(props) => props.bg});
-  background-size: 100% 100%;
+  animation: ${fadeIn} 1.2s 1.2s forwards ease-in;
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #f2fcfe,
+    #1c92d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #f2fcfe,
+    #1c92d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   .books {
     cursor: pointer;
   }
@@ -34,32 +78,35 @@ const TitleContent = styled.div`
 
 function ProFile() {
   return (
-    <PFcontainer bg={proFileImg}>
-      <Title>ProFile</Title>
-      <TitleContent>(클릭후 드래그하여 책을 넘겨주세요.)</TitleContent>
-      <Flipage
-        height={500}
-        width={800}
-        orientation={"horizontal"}
-        className={"books"}
-        pageBackground={"#d0d9e100"}
-        animationDuration={300}
-        showSwipeHint={true}
-      >
-        <article>
-          <My />
-        </article>
-        <article>
-          <Educations />
-        </article>
-        <article>
-          <Armys />
-        </article>
-        <article>
-          <Albas />
-        </article>
-      </Flipage>
-    </PFcontainer>
+    <>
+      <AniContainer></AniContainer>
+      <PFcontainer bg={proFileImg} className="ani">
+        <Title>ProFile</Title>
+        <TitleContent>(클릭후 드래그하여 책을 넘겨주세요.)</TitleContent>
+        <Flipage
+          height={500}
+          width={800}
+          orientation={"horizontal"}
+          className={"books"}
+          pageBackground={"#d0d9e100"}
+          animationDuration={300}
+          showSwipeHint={true}
+        >
+          <article>
+            <My />
+          </article>
+          <article>
+            <Educations />
+          </article>
+          <article>
+            <Armys />
+          </article>
+          <article>
+            <Albas />
+          </article>
+        </Flipage>
+      </PFcontainer>
+    </>
   );
 }
 

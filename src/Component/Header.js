@@ -13,13 +13,13 @@ const HeaderContainer = styled.div`
   width: 100%;
   height: 80px;
   font-size: 1.2rem;
-  color: #d2dae2;
+  color: whtie;
   font-weight: bold;
   background-color: ${(props) =>
     props.bg === "/"
       ? "rgba(20, 20, 20, 0.8)"
       : props.bg === "/profile"
-      ? "#e48362f0"
+      ? "#329DD6"
       : props.bg === "/projact"
       ? "#260808"
       : "rgba(20, 20, 20, 0.8)"};

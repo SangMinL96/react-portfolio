@@ -3,7 +3,16 @@ import styled, { keyframes } from "styled-components";
 import { Link, Route } from "react-router-dom";
 import Itemss from "./Itemss";
 import Coverflow from "react-coverflow";
-
+const projactIn = keyframes`
+0%{
+  opacity: 0;
+ 
+}
+100%{
+  opacity: 1;
+  
+}
+`;
 const PJcontainer = styled.section`
   display: flex;
   width: 100%;
@@ -12,6 +21,7 @@ const PJcontainer = styled.section`
   justify-content: center;
   align-items: center;
   background-color: #020202;
+  animation: ${projactIn} 2s ease-in-out;
   .slider {
     width: 100%;
   }
