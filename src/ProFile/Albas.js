@@ -26,7 +26,7 @@ const Alba = styled.div`
   width: 100%;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #e55039;
+  color: #1e272e;
   span {
     display: inline-block;
     font-size: 1rem;

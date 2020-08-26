@@ -5,15 +5,57 @@ import Itemss from "./Itemss";
 import Coverflow from "react-coverflow";
 const projactIn = keyframes`
 0%{
-  opacity: 0;
+  width: 0%;
+  
  
+}50%{
+  width: 50%;
+  
 }
 100%{
-  opacity: 1;
+  width: 0%;
+  
   
 }
 `;
+
+const sliderIn = keyframes`
+0%{
+  opacity:0;
+}100%{
+  opacity:1;
+}
+`;
+const fadeIn = keyframes`
+0%{
+  opacity: 0;
+  top:5px;
+}
+100%{
+  opacity: 1;
+  top:50px;
+}
+`;
+const AniContainer1 = styled.div`
+  position: absolute;
+  width: 0%;
+  height: 94vh;
+  left: 0%;
+  background-color: #260808;
+  z-index: 5;
+  animation: ${projactIn} 2s linear;
+`;
+const AniContainer2 = styled.div`
+  position: absolute;
+  width: 0%;
+  height: 94vh;
+  right: 0%;
+  background-color: #260808;
+  z-index: 5;
+  animation: ${projactIn} 2s linear;
+`;
 const PJcontainer = styled.section`
+  opacity: 0;
   display: flex;
   width: 100%;
   height: 94vh;
@@ -21,7 +63,7 @@ const PJcontainer = styled.section`
   justify-content: center;
   align-items: center;
   background-color: #020202;
-  animation: ${projactIn} 2s ease-in-out;
+  animation: ${sliderIn} 1s 1s forwards;
   .slider {
     width: 100%;
   }
@@ -39,16 +81,7 @@ const Scroll = styled.div`
   background-color: #353b48;
   border-radius: 30px;
 `;
-const fadeIn = keyframes`
-0%{
-  opacity: 0;
-  top:5px;
-}
-100%{
-  opacity: 1;
-  top:50px;
-}
-`;
+
 const ScrollMovig = styled.div`
   position: absolute;
   top: 5px;
@@ -67,9 +100,17 @@ const ScrollText = styled.div`
 const Items = styled(Link)`
   width: 100%;
   height: 200px;
+  text-align: center;
   &:hover {
     transform: scale(1.03);
     opacity: 80%;
+  }
+  h3 {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 14px;
   }
 `;
 const Item = styled.div`
@@ -81,6 +122,8 @@ const Item = styled.div`
 function ProJactItems({ data }) {
   return (
     <>
+      <AniContainer1 />
+      <AniContainer2 />
       <PJcontainer>
         <Title>ProJact</Title>
         <Scroll>
@@ -100,6 +143,7 @@ function ProJactItems({ data }) {
         >
           {data.map((item) => (
             <Items to={`/projact/${item.id}`} key={item.id}>
+              <h3>{item.title}</h3>
               <Item id={item.id} bg={item.image} />
             </Items>
           ))}

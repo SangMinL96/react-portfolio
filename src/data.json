@@ -2,53 +2,58 @@
   "data": [
     {
       "id": 0,
-      "class": "ani1",
+      "class": "ani1 slideLeft",
       "title": "리액트 포트폴리오",
       "image": "https://i.imgur.com/PfYAlFa.png",
       "movie": "https://i.imgur.com/rj7oYH9.mp4",
       "Summary": "안녕하세요. 이번 프로젝트는 패스트캠퍼스 React 과정을 수강후 useReducer을 이용하여 만든 커스텀 훅,Axios을 이용하여 무료 MovieAPI를 GET하여 혼자서 스스로 만든 프로젝트 입니다.",
       "git": "https://github.com/SangMinL96/react-portfolio",
-      "site": ""
+      "site": "",
+      "skils": "HTML  CSS  JAVASCRIPT  REACT  각종 라이브러리"
     },
     {
       "id": 1,
-      "class": "ani2",
+      "class": "ani2 slideLeft",
       "title": "클론 인스타그램",
       "image": "https://i.imgur.com/PfYAlFa.png",
       "movie": "https://i.imgur.com/rj7oYH9.mp4",
       "Summary": "안녕하세요. 이번 프로젝트는 패스트캠퍼스 React 과정을 수강후 useReducer을 이용하여 만든 커스텀 훅,Axios을 이용하여 무료 MovieAPI를 GET하여 혼자서 스스로 만든 프로젝트 입니다.",
       "git": "",
-      "site": ""
+      "site": "",
+      "skils": "HTML  CSS  JAVASCRIPT  REACT  GraphQL  Prisma  Apollo"
     },
     {
       "id": 2,
-      "class": "ani2",
+      "class": "ani2 slideCenter",
       "title": "리액트 무비",
       "image": "https://i.imgur.com/PfYAlFa.png",
       "movie": "https://i.imgur.com/rj7oYH9.mp4",
       "Summary": "안녕하세요. 이번 프로젝트는 패스트캠퍼스 React 과정을 수강후 useReducer을 이용하여 만든 커스텀 훅,Axios을 이용하여 무료 MovieAPI를 GET하여 혼자서 스스로 만든 프로젝트 입니다.",
       "git": "https://github.com/SangMinL96/react-sangfilxx",
-      "site": "https://sangminl96.github.io/react-sangfilxx/"
+      "site": "https://sangminl96.github.io/react-sangfilxx/",
+      "skils": "HTML  CSS  JAVASCRIPT  RESTAPI  REACT"
     },
     {
       "id": 3,
-      "class": "ani2",
+      "class": "ani2 slideRight",
       "title": "리액트 네이티브 무비",
       "image": "https://i.imgur.com/PfYAlFa.png",
       "movie": "https://i.imgur.com/rj7oYH9.mp4",
       "Summary": "안녕하세요. 이번 프로젝트는 패스트캠퍼스 React 과정을 수강후 useReducer을 이용하여 만든 커스텀 훅,Axios을 이용하여 무료 MovieAPI를 GET하여 혼자서 스스로 만든 프로젝트 입니다.",
       "git": "https://github.com/SangMinL96/native-sangmovies",
-      "site": ""
+      "site": "",
+      "skils": "HTML  CSS  JAVASCRIPT  RESTAPI  ReactNative"
     },
     {
       "id": 4,
-      "class": "ani3",
+      "class": "ani3 slideRight",
       "title": "리액트 투두리스트",
       "image": "https://i.imgur.com/hfc07Ex.png",
       "movie": "https://i.imgur.com/RDrXJwn.mp4",
       "Summary": "안녕하세요. 이번 프로젝트는 패스트캠퍼스 React 과정을 수강중 만든 간단한 프로젝트 입니다. 선생님의 코드를 무작정 따라 쓰지않고 혼자서도 구현을 해낼수 있도록 하여 만들었습니다.",
       "git": "https://github.com/SangMinL96/react-todolist",
-      "site": "https://sangminl96.github.io/react-todolist/."
+      "site": "https://sangminl96.github.io/react-todolist/.",
+      "skils": "HTML  CSS  JAVASCRIPT  REACT"
     },
     {
       "id": 5,
@@ -58,7 +63,8 @@
       "movie": "https://i.imgur.com/nWpw0rg.mp4",
       "Summary": "안녕하세요. 노마드코더 클론 인스타그램 수업을 GraphQL를 사용하여 구현을 하기 때문에 개인적으로도 궁금했던 내용이였고 GraphQL를 사용해 API를 만드는것은 선생님의 코드를 많이 빌려서 작성을 하였습니다.REST API와 다른 점을 느꼈고 처음 사용할때에는 적응이 조금 필요했습니다. 하지만 프론트엔드 부분은 스스로 할 수있도록 공부하였습니다. 이번 프로젝트를 계기로 API를 사용하여 구현하는것에 자신감이 붙었고 이후에 리액트 무비 프로젝트를 완성 시켰습니다.",
       "git": "https://github.com/SangMinL96/movieAPI-React-movie",
-      "site": ""
+      "site": "",
+      "skils": "HTML  CSS  JAVASCRIPT  RESTAPI  GraphQL  Apollo"
     },
     {
       "id": 6,
@@ -68,7 +74,8 @@
       "movie": "https://i.imgur.com/Wq5D5Wh.mp4",
       "Summary": "안녕하세요. 순수 자바스크립트를 이용하여 만든 프로젝트 입니다. Localstorage를 사용하여 사용자의 입력정보를 저장시켜 새로고침,재방문시 정보가 사라지지 않도록 기능을 구현했습니다.",
       "git": "https://github.com/SangMinL96/vanillaJavaScriptTodoList",
-      "site": "https://sangminl96.github.io/vanillaJavaScriptTodoList/."
+      "site": "https://sangminl96.github.io/vanillaJavaScriptTodoList/.",
+      "skils": "HTML  CSS  JAVASCRIPT"
     },
     {
       "id": 7,
@@ -78,7 +85,8 @@
       "movie": "https://i.imgur.com/zcyfMLI.mp4",
       "Summary": "안녕하세요. 순수 자바스크립트를 이용하여 만들었고 강의를 한번 보고난 후 스스로 구현을 하면서 어려움을 많이 겪어 문서를 보면서 굉장히 시간을 많이 사용했던 기억이 있습니다. 문서를 잘 찾아서 기능을 구현하는것이 중요하다는걸 느낀 프로젝트 였습니다.",
       "git": "https://github.com/SangMinL96/My_canvers",
-      "site": "https://sangminl96.github.io/My_canvers/"
+      "site": "https://sangminl96.github.io/My_canvers/",
+      "skils": "HTML  CSS  JAVASCRIPT"
     },
     {
       "id": 8,
@@ -88,7 +96,8 @@
       "movie": "https://i.imgur.com/EzpAiUF.mp4",
       "Summary": "안녕하세요. 자바스크립트 언어를 이론,유튜브에서만 공부를 하다가 처음으로 자바스크립트를 이용해서 만든 홈페이지 입니다. 홈페이지 디자인은 구글에 검색하여 얻었고 이론으로만 공부하던것을 막상 코딩을해 구현을 할려고하니 어려움을 겪었던 기억이 있습니다. 하지만 한번 감을 잡은 후에는 또 다른 재미를 느껴 뿌듯했었던 프로젝트입니다.",
       "git": "https://github.com/SangMinL96/gaming-homepage",
-      "site": "https://sangminl96.github.io/gaming-homepage/"
+      "site": "https://sangminl96.github.io/gaming-homepage/",
+      "skils": "HTML  CSS  JAVASCRIPT"
     },
     {
       "id": 9,
@@ -98,7 +107,8 @@
       "movie": "https://i.imgur.com/797OjTS.mp4",
       "Summary": "안녕하세요. 이번 프로젝트는 처음 프론트엔드에 관심을 가지고 생활코딩,유튜브 등등 공부하다가 노마드 코드라는 사이트를 알게되어 HTML,CSS만을 사용하여 만든 카카오톡 클론이 나에게 레벨이 맞을거 같아 시작하게 된 프로젝트 입니다. 제 인생에 첫 프로젝트였고 이때 당시 제가 작성 했던 것들이 눈으로 직접적으로 들어나 상당한 재미를 느꼈고 정말 쉬운 프로젝트였지만 그래도 가장 기억에 남는 프로젝트 입니다.",
       "git": "https://github.com/SangMinL96/solo.kakao",
-      "site": "https://sangminl96.github.io/solo.kakao/"
+      "site": "https://sangminl96.github.io/solo.kakao/",
+      "skils": "HTML  CSS"
     },
     {
       "id": 10,
@@ -108,7 +118,8 @@
       "movie": "https://i.imgur.com/ELVSS7r.mp4",
       "Summary": "안녕하세요. 이번 프로젝트는 구글에서 자바스크립트 공부 내용을 찾다가 우연히 두더지 게임을 보게 되었고 생각만 하다가 쉽겠다는 생각을 들게되어 즉흥적으로 만든 프로젝트 입니다. 처음으로 허접한 게임이여도 웹으로 게임을 만들었다는 것에 뿌듯함을 느꼈습니다. ",
       "git": "https://github.com/SangMinL96/MoleCatchGame",
-      "site": "https://sangminl96.github.io/MoleCatchGame/."
+      "site": "https://sangminl96.github.io/MoleCatchGame/.",
+      "skils": "HTML  CSS  JAVASCRIPT"
     }
   ]
 }

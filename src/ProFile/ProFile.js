@@ -39,7 +39,7 @@ const AniContainer = styled.div`
   background-color: #329dd6;
   width: 100%;
   height: 0vh;
-  animation: ${fadeInOut} 2.5s forwards ease-in;
+  animation: ${fadeInOut} 2s forwards ease-in;
 `;
 const PFcontainer = styled.section`
   opacity: 0;
@@ -50,17 +50,8 @@ const PFcontainer = styled.section`
   justify-content: center;
   align-items: center;
   animation: ${fadeIn} 1.2s 1.2s forwards ease-in;
-  background: #1c92d2; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #f2fcfe,
-    #1c92d2
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #f2fcfe,
-    #1c92d2
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #1c92d2;
+  background: linear-gradient(to top, #f2fcfe, #1c92d2);
 
   .books {
     cursor: pointer;
