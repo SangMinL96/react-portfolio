@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": 0,
+      "id": "0",
       "class": "ani1 slideLeft",
       "title": "리액트 포트폴리오",
       "image": "https://i.imgur.com/PfYAlFa.png",
@@ -12,7 +12,7 @@
       "skils": "HTML  CSS  JAVASCRIPT  REACT  각종 라이브러리"
     },
     {
-      "id": 1,
+      "id": "1",
       "class": "ani2 slideLeft",
       "title": "클론 인스타그램",
       "image": "https://i.imgur.com/PfYAlFa.png",
@@ -23,7 +23,7 @@
       "skils": "HTML  CSS  JAVASCRIPT  REACT  GraphQL  Prisma  Apollo"
     },
     {
-      "id": 2,
+      "id": "2",
       "class": "ani2 slideCenter",
       "title": "리액트 무비",
       "image": "https://i.imgur.com/PfYAlFa.png",
@@ -34,7 +34,7 @@
       "skils": "HTML  CSS  JAVASCRIPT  RESTAPI  REACT"
     },
     {
-      "id": 3,
+      "id": "3",
       "class": "ani2 slideRight",
       "title": "리액트 네이티브 무비",
       "image": "https://i.imgur.com/PfYAlFa.png",
@@ -45,7 +45,7 @@
       "skils": "HTML  CSS  JAVASCRIPT  RESTAPI  ReactNative"
     },
     {
-      "id": 4,
+      "id": "4",
       "class": "ani3 slideRight",
       "title": "리액트 투두리스트",
       "image": "https://i.imgur.com/hfc07Ex.png",
@@ -56,7 +56,7 @@
       "skils": "HTML  CSS  JAVASCRIPT  REACT"
     },
     {
-      "id": 5,
+      "id": "5",
       "class": "ani4",
       "title": "GraphQL 아폴로 무비",
       "image": "https://i.imgur.com/ZBkb6ia.png",
@@ -67,7 +67,7 @@
       "skils": "HTML  CSS  JAVASCRIPT  RESTAPI  GraphQL  Apollo"
     },
     {
-      "id": 6,
+      "id": "6",
       "class": "ani5",
       "title": "바닐라 자바스크립트 투두리스트",
       "image": "https://i.imgur.com/Ch1NmUm.png",
@@ -78,18 +78,18 @@
       "skils": "HTML  CSS  JAVASCRIPT"
     },
     {
-      "id": 7,
+      "id": "7",
       "class": "ani6",
       "title": "바닐라 자바스크립트 CANVAS",
       "image": "https://i.imgur.com/wAm3IOg.png",
       "movie": "https://i.imgur.com/zcyfMLI.mp4",
-      "Summary": "안녕하세요. 순수 자바스크립트를 이용하여 만들었고 강의를 한번 보고난 후 스스로 구현을 하면서 어려움을 많이 겪어 문서를 보면서 굉장히 시간을 많이 사용했던 기억이 있습니다. 문서를 잘 찾아서 기능을 구현하는것이 중요하다는걸 느낀 프로젝트 였습니다.",
+      "Summary": "안녕하세요. 순수 자바스크립트를 이용하여 만들었고 강의를 한번 보고난 후 스스로 구현을 하면서 어려움을 많이 겪어 DOC 문서를 보면서 굉장히 시간을 많이 사용했던 기억이 있습니다. 문서를 잘 찾아서 기능을 구현하는것이 중요하다는걸 느낀 프로젝트 였습니다.",
       "git": "https://github.com/SangMinL96/My_canvers",
       "site": "https://sangminl96.github.io/My_canvers/",
       "skils": "HTML  CSS  JAVASCRIPT"
     },
     {
-      "id": 8,
+      "id": "8",
       "class": "ani7",
       "title": "리그오브레전드 홈페이지",
       "image": "https://i.imgur.com/MmbojCZ.png",
@@ -100,7 +100,7 @@
       "skils": "HTML  CSS  JAVASCRIPT"
     },
     {
-      "id": 9,
+      "id": "9",
       "class": "ani8",
       "title": "카카오톡 클론 코딩",
       "image": "https://i.imgur.com/Ka06sIJ.png",
@@ -111,12 +111,12 @@
       "skils": "HTML  CSS"
     },
     {
-      "id": 10,
+      "id": "10",
       "class": "ani9",
       "title": "두더지 잡기 게임",
       "image": "https://i.imgur.com/psRAlWw.png",
       "movie": "https://i.imgur.com/ELVSS7r.mp4",
-      "Summary": "안녕하세요. 이번 프로젝트는 구글에서 자바스크립트 공부 내용을 찾다가 우연히 두더지 게임을 보게 되었고 생각만 하다가 쉽겠다는 생각을 들게되어 즉흥적으로 만든 프로젝트 입니다. 처음으로 허접한 게임이여도 웹으로 게임을 만들었다는 것에 뿌듯함을 느꼈습니다. ",
+      "Summary": "안녕하세요. 이번 프로젝트는 구글에서 자바스크립트 공부 내용을 찾다가 우연히 두더지 게임을 보게 되었고 생각만 하다가 구현을 하기 쉽겠다는 생각을 들게되어 즉흥적으로 만든 프로젝트 입니다. 퀄리티가 떨어지는 게임이여도 처음으로 웹으로 게임을 만들었다는 것에 뿌듯함을 느꼈습니다. ",
       "git": "https://github.com/SangMinL96/MoleCatchGame",
       "site": "https://sangminl96.github.io/MoleCatchGame/.",
       "skils": "HTML  CSS  JAVASCRIPT"
