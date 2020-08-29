@@ -1,7 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
 import { Link, Route } from "react-router-dom";
-import Itemss from "./Itemss";
+import Items from "./Items";
 import Coverflow from "react-coverflow";
 const projactIn = keyframes`
 0%{
@@ -97,7 +97,7 @@ const ScrollText = styled.div`
   font-size: 1.2rem;
   font-weight: bold;
 `;
-const Items = styled(Link)`
+const ItemLink = styled(Link)`
   width: 100%;
   height: 200px;
   text-align: center;
@@ -142,14 +142,14 @@ function ProJactItems({ data }) {
           currentFigureScale={1.85}
         >
           {data.map((item) => (
-            <Items to={`/projact/${item.id}`} key={item.id}>
+            <ItemLink to={`/projact/${item.id}`} key={item.id}>
               <h3>{item.title}</h3>
               <Item id={item.id} bg={item.image} />
-            </Items>
+            </ItemLink>
           ))}
         </Coverflow>
       </PJcontainer>
-      <Route path="/projact/:id" component={Itemss} />
+      <Route path="/projact/:id" component={Items} />
     </>
   );
 }

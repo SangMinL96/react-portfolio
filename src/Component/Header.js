@@ -64,8 +64,8 @@ function Header({ location: { pathname } }) {
         <NavList hover={pathname === "/projact"}>
           <NavLink to="/projact">ProJact</NavLink>
         </NavList>
-        <NavList hover={pathname === "/End"}>
-          <NavLink to="/End">END</NavLink>
+        <NavList hover={pathname === "/card"}>
+          <NavLink to="/card">Card</NavLink>
         </NavList>
       </Nav>
     </HeaderContainer>

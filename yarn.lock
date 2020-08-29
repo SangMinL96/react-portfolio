@@ -9073,6 +9073,11 @@ react-motion@^0.5.0:
     prop-types "^15.5.8"
     raf "^3.1.0"
 
+react-panresponder-web@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-panresponder-web/-/react-panresponder-web-1.0.2.tgz#6d19c6bd33724b77d2c762fec302e0eeff9475e6"
+  integrity sha512-kUfNinxTavO7PY/s/khqRnJgtp8czpCG+inZlKRw/wFaLAARxewXlE28XmGeK0LWpKBuhEm+YKPN0nruT/urrg==
+
 react-router-dom@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-5.2.0.tgz#9e65a4d0c45e13289e66c7b17c7e175d0ea15662"

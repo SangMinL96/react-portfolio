@@ -4,7 +4,7 @@ import Home from "../Home/Home";
 import Header from "./Header";
 import ProJact from "../ProJact/ProJact";
 import ProFile from "../ProFile/ProFile";
-import End from "../End/End";
+import Card from "../Card/Card";
 
 function Routes() {
   return (
@@ -16,7 +16,7 @@ function Routes() {
 
           <Route path="/profile" component={ProFile} />
           <Route path="/projact" component={ProJact} />
-          <Route path="/End" component={End} />
+          <Route path="/card" component={Card} />
         </Switch>
       </Router>
     </>
