@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 import { useState } from "react";
-import { flipInY } from "react-animations";
 
 import logoIcons from "../skilIcon.json";
 import { useRef } from "react";
-const carIn = keyframes`${flipInY}`;
 
 const CardImgContainer = styled.div`
   position: absolute;
@@ -65,9 +63,7 @@ function CardImg() {
     <CardImgContainer>
       <LogoSilde ref={sildeRef}>
         {logoIcons.data.map((item) => (
-          <>
-            <CardImgArticle key={item.id} logo={item.logo}></CardImgArticle>
-          </>
+          <CardImgArticle key={item.id} logo={item.logo}></CardImgArticle>
         ))}
       </LogoSilde>
     </CardImgContainer>

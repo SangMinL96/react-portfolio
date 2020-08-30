@@ -117,10 +117,10 @@ function StudyCard({ studys }) {
     <StudyContainer>
       {studys
         .map((item, index) => (
-          <>
+          <div key={item.id}>
             {current === index && (
               <>
-                <StudyArticle key={item.id} id={item.id}>
+                <StudyArticle id={item.id}>
                   <h1>Study Card</h1>
                   <h3>{item.title}</h3>
                   <StudyLogo logo={item.logo} />
@@ -130,7 +130,7 @@ function StudyCard({ studys }) {
                 </StudyArticle>
               </>
             )}
-          </>
+          </div>
         ))
         .reverse()}
       <ToastContainer position="bottom-center" />

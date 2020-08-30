@@ -127,6 +127,7 @@ const RightBtn = styled.button`
     opacity: 0.8;
   }
 `;
+
 function SkilCard({ skils }) {
   console.log(skils);
   const [current, setCurrent] = useState(0);
@@ -149,10 +150,10 @@ function SkilCard({ skils }) {
     <SkilContainer>
       {skils
         .map((item, index) => (
-          <>
+          <div key={item.id}>
             {current === index && (
               <>
-                <SkilArticle key={item.id} id={item.id}>
+                <SkilArticle id={item.id}>
                   <h1>Skil Card</h1>
                   <h3>{item.title}</h3>
                   <SkilLogo logo={item.logo} />
@@ -175,7 +176,7 @@ function SkilCard({ skils }) {
                 )}
               </>
             )}
-          </>
+          </div>
         ))
         .reverse()}
       <ToastContainer position="bottom-center" />
