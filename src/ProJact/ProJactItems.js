@@ -64,9 +64,6 @@ const PJcontainer = styled.section`
   align-items: center;
   background-color: #020202;
   animation: ${sliderIn} 1s 1s forwards;
-  .slider {
-    width: 100%;
-  }
 `;
 const Title = styled.h3`
   font-size: 4rem;
@@ -107,6 +104,7 @@ const ItemLink = styled(Link)`
   }
   h3 {
     position: absolute;
+    width: 100%;
     top: -30px;
     left: 50%;
     transform: translate(-50%, 50%);
@@ -119,6 +117,7 @@ const Item = styled.div`
   background-image: url(${(props) => props.bg});
   background-size: 100% 100%;
 `;
+
 function ProJactItems({ data }) {
   return (
     <>
@@ -131,7 +130,7 @@ function ProJactItems({ data }) {
         </Scroll>
         <ScrollText>Scroll</ScrollText>
         <Coverflow
-          width="1400"
+          width="1250"
           height="550"
           className="slider"
           displayQuantityOfSide={2}

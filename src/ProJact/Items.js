@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import styled, { keyframes } from "styled-components";
 import data from "../data.json";
 import { NavLink } from "react-router-dom";
@@ -28,14 +28,24 @@ const Container = styled.div`
   top: -25%;
   left: 50%;
   transform: translate(-50%, 50%);
-  width: 62%;
-  height: 80%;
+  width: 1100px;
+  height: 76vh;
   background: #000000;
   background: linear-gradient(to top, #434343, #000000);
   display: flex;
   flex-direction: column;
   align-items: center;
   animation: ${fadeIn} 1s forwards ease-in;
+  @media only screen and (max-width: 1150px) {
+    width: 900px;
+  }
+  @media only screen and (max-width: 940px) {
+    width: 600px;
+    height: 100vh;
+  }
+  @media only screen and (max-width: 640px) {
+    width: 460px;
+  }
 `;
 
 const DetailOut = styled(NavLink)`
@@ -67,9 +77,21 @@ const DetailContents = styled.div`
     margin-bottom: 1em;
     margin-top: 1em;
   }
+  video {
+    @media only screen and (max-width: 640px) {
+      width: 460px;
+    }
+  }
+
+  @media only screen and (max-width: 940px) {
+    flex-direction: column;
+  }
 `;
 const Content = styled.div`
   width: 30%;
+  @media only screen and (max-width: 940px) {
+    width: 80%;
+  }
 `;
 const Intro = styled.div`
   width: 100%;
@@ -94,6 +116,9 @@ const Silts = styled.div`
   display: flex;
   font-size: 1.15rem;
   margin-top: 1em;
+  @media only screen and (max-width: 940px) {
+    flex-direction: column;
+  }
 `;
 const Git = styled.a`
   width: 50%;
@@ -105,6 +130,9 @@ const Git = styled.a`
   &:hover {
     opacity: 80%;
   }
+  @media only screen and (max-width: 940px) {
+    width: 100%;
+  }
 `;
 const WebSite = styled.a`
   width: 50%;
@@ -115,6 +143,9 @@ const WebSite = styled.a`
   align-items: center;
   &:hover {
     opacity: 80%;
+  }
+  @media only screen and (max-width: 940px) {
+    width: 100%;
   }
 `;
 

@@ -15,6 +15,9 @@ const HomeContainer = styled.section`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  @media only screen and (max-width: 840px) {
+    flex-direction: column;
+  }
 `;
 
 const HomeContent = styled.div`
@@ -29,9 +32,17 @@ const HomeMyImg = styled.img`
   border-radius: 20px;
   opacity: 95%;
   animation: 7s ${fadeRight};
+  @media only screen and (max-width: 840px) {
+    flex-direction: column;
+    width: 400px;
+  }
 `;
 const ContentImg = styled.img`
   animation: 1s ${zoomin};
+  @media only screen and (max-width: 590px) {
+    margin-top: 3em;
+    width: 450px;
+  }
 `;
 const ContentText = styled.div`
   margin-right: 6em;
@@ -39,6 +50,10 @@ const ContentText = styled.div`
   font-size: 1.1rem;
   color: #d4d1ff;
   font-weight: bold;
+  @media only screen and (max-width: 590px) {
+    font-size: 0.95rem;
+    margin-right: 4em;
+  }
 
   .text1 {
     animation: 2s linear ${fadeLeft};

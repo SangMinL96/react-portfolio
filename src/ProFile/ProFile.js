@@ -55,6 +55,10 @@ const PFcontainer = styled.section`
 
   .books {
     cursor: pointer;
+    @media only screen and (max-width: 600px) {
+      width: 100px;
+      height: 70vh;
+    }
   }
 `;
 const Title = styled.h3`

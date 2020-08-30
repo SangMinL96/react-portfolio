@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import { zoomIn } from "react-animations";
+
 const detailZoomIn = keyframes`
  0%{
   opacity:0;
@@ -23,8 +23,9 @@ const level = (lv) => keyframes`
 const SkilDetailArticle = styled.article`
   position: fixed;
   z-index: 2;
-  left: 35%;
-  top: 24%;
+  left: 50%;
+  top: -5%;
+  transform: translate(-50%, 50%);
   width: 550px;
   height: 60%;
   overflow-y: hidden;
@@ -50,6 +51,10 @@ const SkilDetailArticle = styled.article`
     margin-top: 0.5em;
     line-height: 1.5;
     width: 80%;
+  }
+  @media only screen and (max-width: 600px) {
+    width: 450px;
+    height: 70vh;
   }
 `;
 const DetailLogo = styled.div`
