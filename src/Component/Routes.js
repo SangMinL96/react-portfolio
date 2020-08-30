@@ -12,7 +12,7 @@ function Routes() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/react-portfolio/" exact component={Home} />
+          <Route path="/react-portfolio" exact component={Home} />
 
           <Route path="/profile" component={ProFile} />
           <Route path="/projact" component={ProJact} />
