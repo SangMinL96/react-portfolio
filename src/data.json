@@ -84,9 +84,9 @@
       "id": 8,
 
       "title": "리액트 포트폴리오",
-      "image": "https://i.imgur.com/PfYAlFa.png",
-      "movie": "https://i.imgur.com/rj7oYH9.mp4",
-      "Summary": "안녕하세요. 이번 프로젝트는 패스트캠퍼스 React 과정을 수강후 useReducer을 이용하여 만든 커스텀 훅,Axios을 이용하여 무료 MovieAPI를 GET하여 혼자서 스스로 만든 프로젝트 입니다.",
+      "image": "https://i.imgur.com/vDUeWVt.png",
+      "movie": "https://i.imgur.com/G1SlTQH.mp4",
+      "Summary": "",
       "git": "https://github.com/SangMinL96/react-portfolio",
       "site": "https://sangminl96.github.io/react-portfolio",
       "skils": "HTML  CSS  JAVASCRIPT  REACT  각종 라이브러리"
