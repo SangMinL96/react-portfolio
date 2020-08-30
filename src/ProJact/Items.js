@@ -12,6 +12,7 @@ import {
   FaGithub,
   FaHome,
 } from "react-icons/fa";
+import { ToastContainer, toast } from "react-toastify";
 
 const fadeIn = keyframes`
 0%{
@@ -152,7 +153,12 @@ const WebSite = styled.a`
 function Itemss({ match }) {
   const { id } = match.params;
   const detail = data.data[id - 1];
-
+  const demoSite = () => {
+    if (detail.site === undefined) {
+      toast("해당 프로젝트는 데모 사이트가 없습니다.");
+    }
+  };
+  console.log(detail.site);
   return (
     <>
       <Container>
@@ -187,11 +193,12 @@ function Itemss({ match }) {
             <FaGithub />
             &ensp;프로젝트 깃허브 사이트
           </Git>
-          <WebSite href={detail.site} target="blank">
+          <WebSite onClick={demoSite} href={detail.site} target="blank">
             <FaHome />
-            &ensp; 프로젝트 구현 사이트
+            &ensp; 프로젝트 데모 사이트
           </WebSite>
         </Silts>
+        <ToastContainer position="bottom-center" />
       </Container>
     </>
   );
