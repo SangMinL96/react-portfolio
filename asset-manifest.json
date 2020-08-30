@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/react-portfolio/static/js/main.45f8d042.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.45f8d042.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.a4f47645.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a4f47645.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.13d31e70.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.13d31e70.js.map",
     "static/css/2.d34346ea.chunk.css": "/react-portfolio/static/css/2.d34346ea.chunk.css",
-    "static/js/2.d3dc0998.chunk.js": "/react-portfolio/static/js/2.d3dc0998.chunk.js",
-    "static/js/2.d3dc0998.chunk.js.map": "/react-portfolio/static/js/2.d3dc0998.chunk.js.map",
+    "static/js/2.8c4644f6.chunk.js": "/react-portfolio/static/js/2.8c4644f6.chunk.js",
+    "static/js/2.8c4644f6.chunk.js.map": "/react-portfolio/static/js/2.8c4644f6.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.49ec8571530d57e919165a88b8d3a075.js": "/react-portfolio/precache-manifest.49ec8571530d57e919165a88b8d3a075.js",
+    "precache-manifest.d1c5f8c869c64a3ea0887e40ed435c3e.js": "/react-portfolio/precache-manifest.d1c5f8c869c64a3ea0887e40ed435c3e.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.d34346ea.chunk.css.map": "/react-portfolio/static/css/2.d34346ea.chunk.css.map",
-    "static/js/2.d3dc0998.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.d3dc0998.chunk.js.LICENSE.txt",
+    "static/js/2.8c4644f6.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8c4644f6.chunk.js.LICENSE.txt",
     "static/media/ProFileimg.jpg": "/react-portfolio/static/media/ProFileimg.fd068586.jpg",
-    "static/media/alba.PNG": "/react-portfolio/static/media/alba.a1ad8e73.PNG",
     "static/media/albaimg.PNG": "/react-portfolio/static/media/albaimg.9c533586.PNG",
+    "static/media/albg.jpg": "/react-portfolio/static/media/albg.df7ac4ef.jpg",
     "static/media/army.jpg": "/react-portfolio/static/media/army.10cf1e59.jpg",
     "static/media/bg.jpg": "/react-portfolio/static/media/bg.a285d947.jpg",
     "static/media/homelogo.png": "/react-portfolio/static/media/homelogo.13144bad.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.13d31e70.js",
     "static/css/2.d34346ea.chunk.css",
-    "static/js/2.d3dc0998.chunk.js",
-    "static/js/main.45f8d042.chunk.js"
+    "static/js/2.8c4644f6.chunk.js",
+    "static/js/main.a4f47645.chunk.js"
   ]
 }
