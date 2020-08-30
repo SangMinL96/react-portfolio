@@ -151,7 +151,7 @@ const WebSite = styled.a`
 
 function Itemss({ match }) {
   const { id } = match.params;
-  const detail = data.data[id];
+  const detail = data.data[id - 1];
 
   return (
     <>
