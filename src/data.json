@@ -51,7 +51,7 @@
       "title": "리액트 네이티브 무비",
       "image": "https://i.imgur.com/ZOngN6G.png",
       "movie": "https://i.imgur.com/S8bUPsc.mp4",
-      "Summary": "안녕하세요. 이번 프로젝트는 웹이 아닌 앱을 React Native, Expo 사용하여 만들었습니다. 리액트 무비 웹 프로젝트가 같은 API를 사용하고 비슷한 디자인으로 구현했습니다. React Native는 라우터가 아닌 내비게이션을 사용하여 구현하는점을 배웠고 이번 프로젝트에서는 React와 다른 점이 라우터밖에 없기 때문에 비교적 쉽게 프로젝트를 완성할 수 있었습니다. 앱을 처음 개발하였지만 이번 계기로 앱에 대한 자신감이 생겼던 프로젝트입니다.",
+      "Summary": "안녕하세요. 이번 프로젝트는 웹이 아닌 앱을 React Native, Expo 사용하여 만들었습니다. 리액트 무비 웹 프로젝트가 같은 API를 사용하고 비슷한 디자인으로 구현했습니다. React Native는 라우터가 아닌 내비게이션을 사용하여 구현하는점을 이번 프로젝트에서는 React와 다른 점이 라우터밖에 없기 때문에 비교적 쉽게 프로젝트를 완성할 수 있었습니다. 앱을 처음 개발하였지만 이번 계기로 앱에 대한 자신감이 생겼던 프로젝트입니다.",
       "git": "https://github.com/SangMinL96/native-sangmovies",
 
       "skils": "HTML  CSS  JAVASCRIPT  RESTAPI  ReactNative"
@@ -86,7 +86,7 @@
       "title": "리액트 포트폴리오",
       "image": "https://i.imgur.com/vDUeWVt.png",
       "movie": "https://i.imgur.com/G1SlTQH.mp4",
-      "Summary": "",
+      "Summary": "안녕하세요. React 프레임워크를 이용하여 만든 반응형 웹사이트 입니다. 지금까지 프로젝트를 React를 이용했기 때문에 포트폴리오도 React로 만들게 되었습니다. 사이트에 모달창이 두개가 있는데 하나는 Route, match를 사용해 ID를 받아와 해당 데이터를 띄우는 방법을 사용했고 다른하나는 useState를 사용하여 모달창을 띄우는 방법을 사용해서 여러가지 방법으로 구현을 해보았습니다. 최대한 저의 모습을 보일수 있도록 만들어 보았습니다. ",
       "git": "https://github.com/SangMinL96/react-portfolio",
       "site": "https://sangminl96.github.io/react-portfolio",
       "skils": "HTML  CSS  JAVASCRIPT  REACT  각종 라이브러리"

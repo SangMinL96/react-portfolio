@@ -84,7 +84,7 @@ function Home() {
     body: icon,
     position: "all",
     cross: "dead",
-    random: 10,
+    random: 8,
   };
   return (
     <>

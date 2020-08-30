@@ -42,7 +42,7 @@ const Container = styled.div`
   }
   @media only screen and (max-width: 940px) {
     width: 600px;
-    height: 100vh;
+    height: 120vh;
   }
   @media only screen and (max-width: 640px) {
     width: 460px;
@@ -119,6 +119,7 @@ const Silts = styled.div`
   margin-top: 1em;
   @media only screen and (max-width: 940px) {
     flex-direction: column;
+    margin-top: 5em;
   }
 `;
 const Git = styled.a`

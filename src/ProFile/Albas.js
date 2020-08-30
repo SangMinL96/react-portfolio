@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import albaBG from "../Image/profile/alba.PNG";
+import albaBG from "../Image/profile/albg.jpg";
 import albaImg from "../Image/profile/albaimg.PNG";
 
 const Container = styled.section`

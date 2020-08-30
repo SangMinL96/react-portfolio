@@ -1,37 +1,37 @@
 {
   "data": [
     {
-      "id": "1",
+      "id": 1,
       "title": "Node Js",
       "logo": "https://i.imgur.com/UCqbezL.png",
       "Summary": "최근 인기가 높은 Node Js는 자바스크립트를 사용을 하고 이미 조금은 자바스크립트에 익숙해져 있기 때문에 빨리 공부를 해서 스스로 백엔드를 구현할 수 있도록 공부를 할 예정입니다. Node Js는 자체 웹서버가 아니기 때문에 Express, prisma 같은 라이브러리를 이용해서 서버를 만듭니다. 인스타그램 프로젝트에서 이미 prisma를 사용해본 적이 있지만 스스로 사용할 수 있도록 공부를 하고 싶습니다."
     },
     {
-      "id": "2",
+      "id": 2,
       "title": "Vue Js",
       "logo": "https://i.imgur.com/HliG5fR.png",
       "Summary": "React와 마찬가지로 virtual DOM를 사용하고 있고 인기가 있는 프레임워크이기 때문에 관심을 가지고 있습니다. 지금은 React를 사용하고 공부를 하고 있기 때문에 여유가 생긴다면 공부를 하고 싶은 프레임워크입니다."
     },
     {
-      "id": "3",
+      "id": 3,
       "title": "Redux",
       "logo": "https://i.imgur.com/4UXMOnq.png",
       "Summary": "React와 정말 잘 어울리는 상태 관리 라이브러리이고 React만 사용할 경우 컴포넌트를 자신이 개별적으로 상태 관리를 하지만 Redux를 사용 사게 될 경우 상태 관리를 하는 store에서 상태를 관리를 하고 컴포넌트에서는 store에서 상태를 사용만 하면 되기 때문에 규모가 큰 프로젝트에서는 필요하다고 생각합니다. Redux는 이미 한번 기본 문법 공부를 해보았지만 개인 프로젝트에서 적용을 시켜본 적이 없어서 아직까지 공부가 필요한 스킬입니다."
     },
     {
-      "id": "4",
+      "id": 4,
       "title": "GraphQl",
       "logo": "https://i.imgur.com/db0qkao.png",
       "Summary": "GraphQl은 개인 프로젝트에서 적용을 하여 사용을 해보았고 query로 개별적으로 데이터를 가져오는 것은 익숙해졌습니다. 하지만 GraphQl 서버를 만드는 것이 아직 부족하다고 생각하고 백엔드에도 관심이 많기 때문에 Node.js와 함께 꼭 공부를 예정입니다."
     },
     {
-      "id": "5",
+      "id": 5,
       "title": "WebPack",
       "logo": "https://i.imgur.com/Ghge3Yg.png",
       "Summary": "Webpack은 자바스크립트의 정적 모듈 번 들러(Static Module Bundler)로써 자바스크립트, 스타일 시트, 이미지 등 모든 것을 모듈로 로딩해서 사용합니다. Webpack은 아직 조금은 먼 기술이기 때문에 앞선 기술들을 완벽히 숙지 후 공부를 하고 싶은 기술입니다."
     },
     {
-      "id": "6",
+      "id": 6,
       "title": "Type Script",
       "logo": "https://i.imgur.com/1wqJP53.png",
       "Summary": "Type Script는 Microsoft에서 개발 및 유지 관리하며 오픈 소스 프로그래밍 언어입니다. JavaScript의 상위 집합으로써 언젠간 공부를 하고 싶은 언어이지만 아직 부족한 기술이 많기 때문에 능숙하게 모든 기술을 다 둘 수 있도록 기술을 공부를 한 후 꼭 TypeScript를 공부하고 싶습니다."

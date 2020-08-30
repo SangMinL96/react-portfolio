@@ -20,6 +20,7 @@ const SkilContainer = styled.div`
     font-weight: 500;
     margin-bottom: 0.5em;
   }
+
   @media only screen and (max-width: 770px) {
     margin-top: 12em;
   }
