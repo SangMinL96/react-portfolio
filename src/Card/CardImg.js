@@ -14,20 +14,16 @@ const CardImgContainer = styled.div`
   display: flex;
   overflow: hidden;
   align-items: center;
-
-  background: #232526; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to top,
-    #414345,
-    #232526
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to top,
-    #414345,
-    #232526
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526;
+  background: linear-gradient(to top, #414345, #232526);
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px #ed4c67;
+  @media only screen and (max-width: 1330px) {
+    bottom: -80px;
+  }
+  @media only screen and (max-width: 770px) {
+    bottom: -720px;
+  }
 `;
 const LogoSilde = styled.div`
   position: absolute;
