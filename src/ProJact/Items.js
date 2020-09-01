@@ -163,7 +163,7 @@ function Itemss({ match }) {
   return (
     <>
       <Container>
-        <DetailOut to="/projact">
+        <DetailOut to="/react-portfolio/projact">
           <BsXSquare />
         </DetailOut>
         <DetailTitle>{detail.title}</DetailTitle>

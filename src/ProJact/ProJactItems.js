@@ -141,14 +141,14 @@ function ProJactItems({ data }) {
           currentFigureScale={1.85}
         >
           {data.map((item) => (
-            <ItemLink to={`/projact/${item.id}`} key={item.id}>
+            <ItemLink to={`/react-portfolio/projact/${item.id}`} key={item.id}>
               <h3>{item.title}</h3>
               <Item id={item.id} bg={item.image} />
             </ItemLink>
           ))}
         </Coverflow>
       </PJcontainer>
-      <Route path="/projact/:id" component={Items} />
+      <Route path="/react-portfolio/projact/:id" component={Items} />
     </>
   );
 }

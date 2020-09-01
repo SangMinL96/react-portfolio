@@ -18,9 +18,9 @@ const HeaderContainer = styled.div`
   background-color: ${(props) =>
     props.bg === "/"
       ? "rgba(20, 20, 20, 0.8)"
-      : props.bg === "/profile"
+      : props.bg === "/react-portfolio/profile"
       ? "#329DD6"
-      : props.bg === "/projact"
+      : props.bg === "/react-portfolio/projact"
       ? "#260808"
       : "rgba(20, 20, 20, 0.8)"};
   /* background-color: rgba(20, 20, 20, 0.8); */
@@ -57,15 +57,15 @@ function Header({ location: { pathname } }) {
         <NavList hover={pathname === "/react-portfolio/"}>
           <NavLink to="/react-portfolio/">Home</NavLink>
         </NavList>
-        <NavList hover={pathname === "/profile"}>
-          <NavLink to="/profile">ProFile</NavLink>
+        <NavList hover={pathname === "/react-portfolio/profile"}>
+          <NavLink to="/react-portfolio/profile">ProFile</NavLink>
         </NavList>
         <HeaderImg src={homelogo} alt="" />
-        <NavList hover={pathname === "/projact"}>
-          <NavLink to="/projact">ProJact</NavLink>
+        <NavList hover={pathname === "/react-portfolio/projact"}>
+          <NavLink to="/react-portfolio/projact">ProJact</NavLink>
         </NavList>
-        <NavList hover={pathname === "/card"}>
-          <NavLink to="/card">Card</NavLink>
+        <NavList hover={pathname === "/react-portfolio/card"}>
+          <NavLink to="/react-portfolio/card">Card</NavLink>
         </NavList>
       </Nav>
     </HeaderContainer>

@@ -14,9 +14,9 @@ function Routes() {
         <Switch>
           <Route path="/react-portfolio/" exact component={Home} />
 
-          <Route path="/profile" component={ProFile} />
-          <Route path="/projact" component={ProJact} />
-          <Route path="/card" component={Card} />
+          <Route path="/react-portfolio/profile" component={ProFile} />
+          <Route path="/react-portfolio/projact" component={ProJact} />
+          <Route path="/react-portfolio/card" component={Card} />
         </Switch>
       </Router>
     </>
