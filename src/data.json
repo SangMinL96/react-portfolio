@@ -62,7 +62,7 @@
 
       "title": "클론 인스타그램",
       "image": "https://i.imgur.com/ALUy1Ui.png",
-      "movie": "https://www.udrop.com/2h0S/bandicam_2020-08-31_00-49-56-200.mp4?download_token=f801abadb4b40af7df17823da6a2e959167a118fd47b04f7d78916070c0f8cac",
+      "movie": "https://www.udrop.com/2h0S/bandicam_2020-08-31_00-49-56-200.mp4?download_token=7610c67da3a64f2bf941898302960e9dc93a3d4615279832b2ac8167ee4fd636",
       "Summary": "안녕하세요. 이번 프로젝트는 GraphQL Prisma를 이용하여 백엔드를 구현했지만 아직 부족한 점이 많아 대부분의 백엔드 코드는 선생님의 도움을 받아 구현했습니다. 하지만 프론트엔드에서 내가 써야 하는 것들이기 때문에 최대한 이해를 하려고 노력을 했습니다. 프론트엔드 부분은 이미 GraphQL의 gql, useQuery, useMutation를 사용해본 적이 있어 대부분의 프론트엔드 코드는 혼자서 작성을 하려고 노력했습니다. 로그인 폼이 로그인 인증 과정은 조금 복잡해 선생님의 강의를 듣고 try catch 사용하는 것이 익숙해졌습니다. 백엔드와 어떻게 연결이 되고 구현이 되어있는지 이번 프로젝트를 통해 많이 배웠습니다.",
       "git": "https://github.com/SangMinL96/sangstagram-front",
 
